@@ -1,0 +1,72 @@
+.container {
+  max-width: 1480px !important;
+}
+
+.MuiContainer-root {
+  padding: 0 !important;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin-left: 50px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+
+  ul {
+    display: flex;
+
+    li {
+      color: #006450;
+      margin-right: 25px;
+      transition: all 0.2s;
+      height: 30px;
+      border-bottom: 0px solid #006450;
+      &:hover {
+        border-bottom: 2px solid #006450;
+      }
+    }
+  }
+}
+
+.center-navbar {
+  margin-left: 30%;
+  color: #00c08b;
+}
+
+/////////////////////////////////////////////////////
+
+.hero {
+  background: url("./img/hero.png");
+  width: auto;
+  height: 882px;
+  margin-top: 10px;
+
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 35px;
+    color: #fff;
+  }
+
+  .hero-inner {
+    padding-top: 175px;
+    align-items: center;
+  }
+
+  .hero-button {
+    margin-left: 125px;
+    height: 50px;
+    width: 150px;
+  }
+}
+
+.hero-border {
+  margin-top: 22px;
+  border-bottom: 2px solid #006450;
+}
+
+/////////////////////////////////////////////////
